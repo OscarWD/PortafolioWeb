@@ -1,0 +1,13 @@
+nav{
+    background-color: #505050;
+}
+
+#logo{
+    transition: color 500ms, transform 500ms;
+}
+
+#logo:hover{
+    background: transparent;
+    color: aqua;
+    transform: scale(1.50, 1.50);
+}

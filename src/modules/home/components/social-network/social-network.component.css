@@ -1,0 +1,8 @@
+.animacion{
+    transition: color 500ms, transform 500ms;
+}
+
+.animacion:hover{
+    background: transparent;
+    transform: scale(1.50, 1.50);
+}

@@ -1,0 +1,20 @@
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" routerLink="/">OSCAR ALMEIDA</a>
+            <button class="navbar-toggler navbar-toggler-right" type="button" (click)="isMenuCollapsed = !isMenuCollapsed"
+                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                &#9776;
+            </button>
+            <div class="collapse navbar-collapse" [ngbCollapse]="isMenuCollapsed">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true" routerLink="/home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true" routerLink='/projects'>Projects</a></li>
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true">About</a></li>
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true">Tutorials</a></li>
+                    <li class="nav-item"><a class="nav-link" (click)="isMenuCollapsed = true">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
